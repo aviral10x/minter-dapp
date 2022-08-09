@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", async() => {
         autoplay: true,
         direction: 'right',
         // height: "calc(100vh - 90px)",
-        width: '33.333%',
+        width: '100%',
         autoHeight: true,
     });
     splide.mount();
