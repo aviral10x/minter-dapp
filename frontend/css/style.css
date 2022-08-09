@@ -39,7 +39,7 @@ body {
     margin: 0 auto;
     padding: 1rem 2rem;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -331,11 +331,11 @@ section {
 /* SLIDDER */
 
 .splide {
-    position: unset;
+    /* position: unset;
     top: 90px;
     left: 5rem;
     z-index: -1;
-    max-width: 1140px;
+    max-width: 1140px; */
     padding: 0px 30px;
 }
 
