@@ -28,11 +28,12 @@ window.addEventListener("DOMContentLoaded", async() => {
         type: "loop",
         arrows: false,
         perMove: 1,
+        perPage: 3,
         pagination: false,
         autoplay: true,
         direction: 'right',
         // height: "calc(100vh - 90px)",
-        // width: '30vw',
+        width: '33.333%',
         autoHeight: true,
     });
     splide.mount();
