@@ -441,10 +441,15 @@ section {
     background: rge(44, 62, 80, 0.2);
 }
 
+.accoridon .tab-content {
+    display: none;
+}
+
 .accoridon input:checked~.tab-content {
     max-height: 100vh;
     padding: 1em;
     background-color: #ffffff;
+    display: block;
 }
 
 .accoridon .tabs {
