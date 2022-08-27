@@ -7,10 +7,6 @@
 
 /* GLOBAL STYLES */
 
-* {
-    outline: 1px solid red;
-}
-
 :root {
     /* --font-primary: "Poppins", sans-serif; */
     --font-primary: 'Silkscreen', cursive;
@@ -47,7 +43,7 @@ body {
     margin: 0 auto;
     padding: 1rem 2rem;
     justify-content: center;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 
