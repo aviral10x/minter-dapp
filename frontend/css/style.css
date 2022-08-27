@@ -35,10 +35,11 @@ body {
     background-color: var(--bg-color);
     display: flex;
     flex-flow: column;
-    height: 100vh;
+    height: 100%;
     color: var(--font-color);
     font-family: var(--font-primary);
     overflow-x: hidden;
+    background-color: #0b3a66;
 }
 
 .container {
@@ -57,6 +58,7 @@ body {
 header {
     background-color: var(--bg-color);
     box-shadow: var(--header-shadow);
+    background-color: #ffffff;
 }
 
 header .container {
