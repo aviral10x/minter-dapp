@@ -443,6 +443,7 @@ section {
 
 .accoridon .tab-content {
     display: none;
+    color: #000;
 }
 
 .accoridon input:checked~.tab-content {
