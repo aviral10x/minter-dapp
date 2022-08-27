@@ -425,6 +425,14 @@ section {
 
 /* Style By Annon start */
 
+header .logo {
+    width: calc(100% - 90%);
+}
+
+header .menu {
+    width: 90%;
+}
+
 header .menu ul.menu_inner {
     display: flex;
 }
@@ -434,7 +442,7 @@ header .menu ul.menu_inner li {
 }
 
 header .menu ul.menu_inner li a {
-    font-size: 16px;
+    font-size: 24px;
     color: #000;
     font-weight: 500;
     font-family: var(--font-secondary);
