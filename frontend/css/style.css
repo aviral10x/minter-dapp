@@ -488,6 +488,7 @@ section {
 
 .splide__slide {
     max-width: 350px;
+    border-width: 0px;
 }
 
 .splide__slide img {
