@@ -486,5 +486,13 @@ section {
     transition: all .35s;
 }
 
+.splide__slide img {
+    /* transform: rotateY(180deg); */
+}
+
+.splide__slide img:hover {
+    transform: rotateY(360deg);
+}
+
 
 /* Style By Annon start */
