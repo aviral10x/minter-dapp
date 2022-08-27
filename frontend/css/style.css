@@ -441,7 +441,7 @@ section {
     background: rge(44, 62, 80, 0.2);
 }
 
-.accoridon .tab .tab-content {
+.accoridon input:checked~.tab-content {
     max-height: 100vh;
     padding: 1em;
 }
