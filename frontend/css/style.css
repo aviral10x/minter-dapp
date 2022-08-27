@@ -335,11 +335,11 @@ section {
 /* SLIDDER */
 
 .splide {
-    /* position: unset;
+    position: unset;
     top: 90px;
     left: 5rem;
     z-index: -1;
-    max-width: 1140px; */
+    max-width: 1140px;
     padding: 0px 30px;
 }
 
