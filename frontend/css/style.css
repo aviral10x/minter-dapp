@@ -425,6 +425,22 @@ section {
 
 /* Style By Annon start */
 
+header .menu ul.menu_inner {
+    display: flex;
+}
+
+header .menu ul.menu_inner li {
+    display: flex;
+}
+
+header .menu ul.menu_inner li a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: var(--font-secondary);
+    text-decoration: none;
+}
+
 .accoridon .row {
     /* display: flex; */
 }
