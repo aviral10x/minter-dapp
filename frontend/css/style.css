@@ -446,7 +446,7 @@ section {
 }
 
 .accoridon input:checked~.tab-content {
-    max-height: 100vh;
+    /* max-height: 100vh; */
     padding: 1em;
     background-color: #ffffff;
     display: block;
