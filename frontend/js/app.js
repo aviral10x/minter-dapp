@@ -379,3 +379,12 @@ async function mint() {
         }
     }
 }
+
+window.onload = function() {
+    var url = new URL(window.location.href);
+    var navigate = url.searchParams.get("soon");
+    if (navigate !== "false" || navigate !== false) {
+        // redirect to coming soon page link 
+        window.location.replace("/comming-Soon");
+    }
+}
