@@ -635,7 +635,8 @@ header .menu .btn:hover {
 }
 
 .page_roadmap_list .page_roadmap_item {
-    padding: 40px 30px;
+    position: relative;
+    padding: 90px 30px 40px 50px;
     flex: calc( 50% - 30px);
     box-shadow: var(--header-shadow);
     border-radius: 10px;
@@ -645,6 +646,21 @@ header .menu .btn:hover {
 .page_roadmap_list .page_roadmap_item:not(:nth-child(4)) {
     margin-right: 30px;
     margin-bottom: 30px;
+}
+
+.page_roadmap_section .page_roadmap_item .page_roadmap_heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page_roadmap_section .page_roadmap_item span {
+    padding: 10px 25px 10px 25px;
+    border-radius: 0px 0px 20px 0px;
+    color: #fff;
+    background-color: #01DE8E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
 }
 
 .page_roadmap_details ol li {
