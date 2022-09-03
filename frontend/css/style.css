@@ -436,6 +436,10 @@ section {
 
 /* Style By Annon start */
 
+header .header_top {
+    padding-top: 10px;
+}
+
 header .header_top ul.header-social {
     display: flex;
     justify-content: flex-end;
