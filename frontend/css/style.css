@@ -448,6 +448,7 @@ header .header_inner .menu {
     display: flex;
     align-items: flex-start;
     width: 90%;
+    padding: 0px 30px;
 }
 
 header .menu ul.menu_inner {
