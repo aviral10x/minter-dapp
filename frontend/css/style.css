@@ -71,7 +71,7 @@ body {
 header {
     background-color: var(--bg-color);
     box-shadow: var(--header-shadow);
-    background-color: #000;
+    background-color: #23262D;
 }
 
 header .container {
