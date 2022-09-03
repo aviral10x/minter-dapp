@@ -475,6 +475,8 @@ header .header-bottom .menu {
 
 header .menu ul.menu_inner {
     display: flex;
+    width: 70%;
+    justify-content: center;
 }
 
 header .menu ul.menu_inner li {
