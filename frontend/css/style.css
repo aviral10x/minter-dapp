@@ -611,6 +611,10 @@ header .menu .btn:hover {
     transform: rotateY(360deg);
 }
 
+.page_roadmap_section {
+    padding: 60px 0px;
+}
+
 .page_roadmap_list {
     display: flex;
     flex-direction: row;
