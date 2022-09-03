@@ -623,13 +623,14 @@ header .menu .btn:hover {
 
 .page_roadmap_list .page_roadmap_item {
     padding: 40px 30px;
-    flex: 50%;
+    flex: calc( 50% - 30px);
     box-shadow: var(--header-shadow);
 }
 
 .page_roadmap_list .page_roadmap_item:not(:nth-child(3)),
 .page_roadmap_list .page_roadmap_item:not(:nth-child(4)) {
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 
