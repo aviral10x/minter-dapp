@@ -479,6 +479,22 @@ header .menu ul.menu_inner li a {
     text-transform: uppercase;
 }
 
+header .menu .btn {
+    color: #41FF00;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #41FF00;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+header .menu .btn:hover {
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
 .accoridon .row {
     /* display: flex; */
 }
