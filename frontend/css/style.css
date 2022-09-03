@@ -442,6 +442,10 @@ section {
 
 /* Style By Annon start */
 
+header .header_inner {
+    padding: 20px 0px;
+}
+
 header .logo {
     width: calc(100% - 90%);
 }
