@@ -611,5 +611,15 @@ header .menu .btn:hover {
     transform: rotateY(360deg);
 }
 
+.page_roadmap_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.page_roadmap_list .page_roadmap_item {
+    flex: 50%;
+}
+
 
 /* Style By Annon start */
