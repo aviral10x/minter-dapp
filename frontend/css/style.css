@@ -492,6 +492,11 @@ header .menu ul.menu_inner li a {
     position: relative;
 }
 
+header .menu ul.menu_inner li a:hover {
+    color: 41FF00;
+    transition: all .4s ease;
+}
+
 header .menu ul.menu_inner li a::after {
     content: " ";
     display: block;
