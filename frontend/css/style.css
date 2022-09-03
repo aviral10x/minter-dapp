@@ -436,6 +436,15 @@ section {
 
 /* Style By Annon start */
 
+header .header_top ul.header-social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .header_top ul.header-social li:not(:last-child) {
+    margin-right: 20px;
+}
+
 header .header-bottom {
     padding: 20px 0px;
     display: flex;
