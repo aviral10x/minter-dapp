@@ -472,11 +472,26 @@ header .menu ul.menu_inner li:not(:last-child) {
 
 header .menu ul.menu_inner li a {
     font-size: 22px;
+    line-height: 30px;
     color: #41FF00;
     font-weight: 500;
     font-family: var(--font-secondary);
     text-decoration: none;
     text-transform: uppercase;
+    position: relative;
+}
+
+header .menu ul.menu_inner li a::after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #41FF00;
+    transition: width .3s;
+}
+
+header .menu ul.menu_inner li a:hover::after {
+    width: 100%;
 }
 
 header .menu .btn {
