@@ -451,7 +451,7 @@ header .logo {
 
 header .header_inner .menu {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-end;
     width: 90%;
     padding: 0px 30px;
@@ -461,12 +461,12 @@ header .menu ul.menu_inner {
     display: flex;
 }
 
-header .menu ul.menu_inner li:not(:last-child) {
+header .menu ul.menu_inner li {
     display: inline-block;
     vertical-align: top;
 }
 
-header .menu ul.menu_inner li {
+header .menu ul.menu_inner li:not(:last-child) {
     margin-right: 30px;
 }
 
