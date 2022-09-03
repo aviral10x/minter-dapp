@@ -488,6 +488,7 @@ header .menu ul.menu_inner li a::after {
     height: 2px;
     background: #41FF00;
     transition: width .3s;
+    margin-top: 5px;
 }
 
 header .menu ul.menu_inner li a:hover::after {
