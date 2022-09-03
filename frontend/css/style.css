@@ -442,11 +442,16 @@ header .header_top {
 
 header .header_top ul.header-social {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    top: 210px;
 }
 
-header .header_top ul.header-social li:not(:last-child) {
-    margin-right: 20px;
+header .header_top ul.header-social li {
+    padding: 10px;
+    background-color: #000;
 }
 
 header .header-bottom {
