@@ -493,7 +493,7 @@ header .menu ul.menu_inner li a {
 }
 
 header .menu ul.menu_inner li a:hover {
-    color: 41FF00;
+    color: #41FF00;
     transition: all .4s ease;
 }
 
