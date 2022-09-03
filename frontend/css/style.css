@@ -34,13 +34,11 @@ ol {
 
 body {
     background-color: var(--bg-color);
-    display: flex;
-    flex-flow: column;
-    height: 100%;
     color: var(--font-color);
+    height: 100%;
     font-family: var(--font-primary);
     overflow-x: hidden;
-    background-color: #0b3a66;
+    background-color: #23262D;
 }
 
 .wrapper {
@@ -473,7 +471,7 @@ header .menu ul.menu_inner li:not(:last-child) {
 header .menu ul.menu_inner li a {
     font-size: 22px;
     line-height: 30px;
-    color: #41FF00;
+    color: #ffffff;
     font-weight: 500;
     font-family: var(--font-secondary);
     text-decoration: none;
