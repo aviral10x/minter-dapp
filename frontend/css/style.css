@@ -622,7 +622,9 @@ header .menu .btn:hover {
 }
 
 .page_roadmap_list .page_roadmap_item {
+    padding: 40px 30px;
     flex: 50%;
+    box-shadow: var(--header-shadow);
 }
 
 
