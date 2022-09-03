@@ -494,7 +494,7 @@ header .menu ul.menu_inner li a:hover::after {
 }
 
 header .menu .btn {
-    color: #41FF00;
+    color: #fff;
     background-color: transparent;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
