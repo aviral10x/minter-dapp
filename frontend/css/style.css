@@ -77,12 +77,6 @@ header .container {
     align-items: center;
 }
 
-.menu {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-}
-
 
 /* NOT CONNECTED */
 
@@ -450,7 +444,9 @@ header .logo {
     width: calc(100% - 90%);
 }
 
-header .menu {
+header .header_inner .menu {
+    display: flex;
+    align-items: flex-start;
     width: 90%;
 }
 
