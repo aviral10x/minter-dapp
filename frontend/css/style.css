@@ -484,13 +484,14 @@ header .menu .btn {
     background-color: transparent;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
-    border-color: #41FF00;
+    border-color: #41ff0087;
     border-radius: 10px 10px 10px 10px;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
 }
 
 header .menu .btn:hover {
+    border-color: #41FF00;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
 }
