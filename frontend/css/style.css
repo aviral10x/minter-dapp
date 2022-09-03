@@ -56,12 +56,9 @@ body {
 } */
 
 .container {
-    display: flex;
-    flex-direction: column;
     max-width: 1920px;
     margin: 0 auto;
     padding: 0px 50px;
-    justify-content: center;
     /* overflow: hidden; */
 }
 
@@ -444,6 +441,9 @@ section {
 
 header .header_inner {
     padding: 20px 0px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 header .logo {
