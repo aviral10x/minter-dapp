@@ -390,6 +390,11 @@ section {
 .mint-qty .btn {
     color: #fff;
     background-color: #23262D;
+    border-width: 0px;
+    box-shadow: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #41ff0087;
 }
 
 .input-number {
@@ -398,6 +403,7 @@ section {
     vertical-align: top;
     text-align: center;
     outline: none;
+    padding: 1rem 15px 1rem 30px;
 }
 
 .input-number,
