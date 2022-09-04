@@ -241,6 +241,10 @@ header .container {
 
 /* COUNTDOWN SECTION */
 
+.countdown_section {
+    padding: 60px 0px 0px 0px;
+}
+
 section {
     flex: 1 1 auto;
 }
