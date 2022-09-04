@@ -290,6 +290,7 @@ section {
 
 .countdown ul {
     display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -311,6 +312,7 @@ section {
     text-align: center;
     line-height: 1;
     border-radius: 4px 4px 0 0;
+    color: #41FF00;
 }
 
 .countdown .clock-item .count-text {
