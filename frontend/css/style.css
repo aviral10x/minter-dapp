@@ -20,7 +20,7 @@
     --header-shadow: var(--accent-color) 0px 0px 5px;
     --card-shadow: var(--accent-color) 0px 0px 20px;
     --roadmap-color: #41ff0087;
-    --roadmao-shadow: var(--roadmap-color) 0px 5px 15px 5px;
+    --roadmap-shadow: var(--roadmap-color) 0px 5px 15px 5px;
 }
 
 * {
@@ -128,7 +128,7 @@ header {
     background-color: var(--bg-color);
     box-shadow: var(--header-shadow);
     background-color: #23262D;
-    box-shadow: var(--roadmao-shadow);
+    box-shadow: var(--roadmap-shadow);
 }
 
 header .container {
@@ -254,11 +254,12 @@ section {
     text-align: center;
 }
 
-.countdown {
+.countdown_section .countdown {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: var(--roadmap-shadow);
 }
 
 .countdown ul {
