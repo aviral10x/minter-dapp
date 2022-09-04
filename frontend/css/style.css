@@ -19,6 +19,8 @@
     --accent-color: #07010c;
     --header-shadow: var(--accent-color) 0px 0px 5px;
     --card-shadow: var(--accent-color) 0px 0px 20px;
+    --roadmap-color: #41ff0087;
+    --roadmao-shadow: var(--roadmap-color) 0px 5px 15px 5px;
 }
 
 * {
@@ -126,6 +128,7 @@ header {
     background-color: var(--bg-color);
     box-shadow: var(--header-shadow);
     background-color: #23262D;
+    box-shadow: var(--roadmao-shadow);
 }
 
 header .container {
