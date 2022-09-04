@@ -40,7 +40,7 @@
     --roadmap-color: #41ff0087;
     --roadmap-shadow: var(--roadmap-color) 0px 5px 15px 5px;
     --font-lcd: "DS-Digital";
-    --font-lcd-color: "#41FF00";
+    --lcd-color: "#41FF00";
 }
 
 * {
@@ -301,7 +301,7 @@ section {
 
 .countdown .clock-item .count-number {
     background: var(--accent-color);
-    color: var(--font-lcd-color);
+    color: var(--lcd-color);
     font-size: 48px;
     font-weight: 400;
     font-family: var(--font-lcd);
