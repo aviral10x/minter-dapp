@@ -11,37 +11,35 @@ const namePrefix = "Daynerds";
 const description = "Daynerds is a commutiny building project there will be an Airdrop and giveaways on our discord so stay tuned";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
-const layerConfigurations = [
-  {
+const layerConfigurations = [{
     growEditionSizeTo: 5000,
     layersOrder: [
-      { name: "Background" },
-      { name: "Clothes" },
-      { name: "Glasses" },
-      { name: "Hat and Hair" },
-      { name: "Left" },
-      { name: "Left Bubble" },
-      { name: "Mouth" },
-      { name: "Pants" },
-      { name: "Right" },
-      { name: "Right Bubble" },
-      { name: "Skin" },
+        { name: "Background" },
+        { name: "Clothes" },
+        { name: "Glasses" },
+        { name: "Hat and Hair" },
+        { name: "Left" },
+        { name: "Left Bubble" },
+        { name: "Mouth" },
+        { name: "Pants" },
+        { name: "Right" },
+        { name: "Right Bubble" },
+        { name: "Skin" },
     ],
-  },
-];
+}, ];
 
 const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
 const format = {
-  width: 1024,
-  height: 1024,
-  smoothing: false,
+    width: 1024,
+    height: 1024,
+    smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://www.daynerds.wtf/", // Replace with your website or remove this line if you do not have one.
+    external_url: "https://www.daynerds.wtf/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -57,8 +55,8 @@ const CONTRACT_SYMBOL = 'DNS';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x7aF1b94a5697EBB0e64fB31c296f7273128a62Fd';
 const TREASURY_ADDRESS = '0x7aF1b94a5697EBB0e64fB31c296f7273128a62Fd';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.0069; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 1499; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 0.02; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -82,59 +80,57 @@ const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
-  const rawContractData = fs.readFileSync(
-    `${basePath}/build/contract/_contract.json`
-  );
-  const contractData = JSON.parse(rawContractData);
-  if (contractData.response === "OK") {
-    CONTRACT_ADDRESS = contractData.contract_address;
-  }
+    const rawContractData = fs.readFileSync(
+        `${basePath}/build/contract/_contract.json`
+    );
+    const contractData = JSON.parse(rawContractData);
+    if (contractData.response === "OK") {
+        CONTRACT_ADDRESS = contractData.contract_address;
+    }
 } catch (error) {
-  // Do nothing, falling back to manual contract address
+    // Do nothing, falling back to manual contract address
 }
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
-  creators: [
-    {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 100,
-    },
-  ],
+    symbol: "YC",
+    seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+    external_url: "https://www.youtube.com/c/hashlipsnft",
+    creators: [{
+        address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+        share: 100,
+    }, ],
 };
 
 const gif = {
-  export: false,
-  repeat: 0,
-  quality: 100,
-  delay: 500,
+    export: false,
+    repeat: 0,
+    quality: 100,
+    delay: 500,
 };
 
 const text = {
-  only: false,
-  color: "#ffffff",
-  size: 20,
-  xGap: 40,
-  yGap: 40,
-  align: "left",
-  baseline: "top",
-  weight: "regular",
-  family: "Courier",
-  spacer: " => ",
+    only: false,
+    color: "#ffffff",
+    size: 20,
+    xGap: 40,
+    yGap: 40,
+    align: "left",
+    baseline: "top",
+    weight: "regular",
+    family: "Courier",
+    spacer: " => ",
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+    ratio: 2 / 128,
 };
 
 const background = {
-  generate: true,
-  brightness: "80%",
-  static: false,
-  default: "#000000",
+    generate: true,
+    brightness: "80%",
+    static: false,
+    default: "#000000",
 };
 
 const rarityDelimiter = "#";
@@ -142,61 +138,61 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 5,
-  thumbWidth: 50,
-  imageRatio: format.height / format.width,
-  imageName: "preview.png",
+    thumbPerRow: 5,
+    thumbWidth: 50,
+    imageRatio: format.height / format.width,
+    imageName: "preview.png",
 };
 
 const preview_gif = {
-  numberOfImages: 5,
-  order: "ASC", // ASC, DESC, MIXED
-  repeat: 0,
-  quality: 100,
-  delay: 500,
-  imageName: "preview.gif",
+    numberOfImages: 5,
+    order: "ASC", // ASC, DESC, MIXED
+    repeat: 0,
+    quality: 100,
+    delay: 500,
+    imageName: "preview.gif",
 };
 
 module.exports = {
-  format,
-  baseUri,
-  description,
-  background,
-  uniqueDnaTorrance,
-  layerConfigurations,
-  rarityDelimiter,
-  preview,
-  shuffleLayerConfigurations,
-  debugLogs,
-  extraMetadata,
-  pixelFormat,
-  text,
-  namePrefix,
-  network,
-  solanaMetadata,
-  gif,
-  preview_gif,
-  AUTH,
-  LIMIT,
-  CONTRACT_ADDRESS,
-  OWNER_ADDRESS,
-  TREASURY_ADDRESS,
-  CHAIN,
-  GENERIC,
-  GENERIC_TITLE,
-  GENERIC_DESCRIPTION,
-  GENERIC_IMAGE,
-  CONTRACT_NAME,
-  CONTRACT_SYMBOL,
-  METADATA_UPDATABLE,
-  ROYALTY_SHARE,
-  ROYALTY_ADDRESS,
-  MAX_SUPPLY,
-  MINT_PRICE,
-  TOKENS_PER_MINT,
-  PRESALE_MINT_START_DATE,
-  PUBLIC_MINT_START_DATE,
-  BASE_URI,
-  PREREVEAL_TOKEN_URI,
-  PRESALE_WHITELISTED_ADDRESSES
+    format,
+    baseUri,
+    description,
+    background,
+    uniqueDnaTorrance,
+    layerConfigurations,
+    rarityDelimiter,
+    preview,
+    shuffleLayerConfigurations,
+    debugLogs,
+    extraMetadata,
+    pixelFormat,
+    text,
+    namePrefix,
+    network,
+    solanaMetadata,
+    gif,
+    preview_gif,
+    AUTH,
+    LIMIT,
+    CONTRACT_ADDRESS,
+    OWNER_ADDRESS,
+    TREASURY_ADDRESS,
+    CHAIN,
+    GENERIC,
+    GENERIC_TITLE,
+    GENERIC_DESCRIPTION,
+    GENERIC_IMAGE,
+    CONTRACT_NAME,
+    CONTRACT_SYMBOL,
+    METADATA_UPDATABLE,
+    ROYALTY_SHARE,
+    ROYALTY_ADDRESS,
+    MAX_SUPPLY,
+    MINT_PRICE,
+    TOKENS_PER_MINT,
+    PRESALE_MINT_START_DATE,
+    PUBLIC_MINT_START_DATE,
+    BASE_URI,
+    PREREVEAL_TOKEN_URI,
+    PRESALE_WHITELISTED_ADDRESSES
 };
