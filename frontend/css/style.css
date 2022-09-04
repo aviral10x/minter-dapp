@@ -387,6 +387,11 @@ section {
     margin: auto;
 }
 
+.mint-qty .btn {
+    color: #fff;
+    background-color: #23262D;
+}
+
 .input-number {
     height: 100%;
     padding: 1rem;
