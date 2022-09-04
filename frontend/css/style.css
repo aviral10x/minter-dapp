@@ -650,7 +650,7 @@ header .menu .btn:hover {
 
 .page_roadmap_section .page_roadmap_item .page_roadmap_heading {
     position: absolute;
-    top: 0;
+    top: 6px;
     left: 0;
 }
 
