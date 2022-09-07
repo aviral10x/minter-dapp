@@ -170,7 +170,9 @@ header .container {
     transition: all 0.5s ease-in-out;
 }
 
-.not-connected {}
+.not-connected video {
+    object-fit: cover;
+}
 
 .show-not-connected {
     opacity: 1;
