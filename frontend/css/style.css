@@ -788,5 +788,7 @@ header .menu .btn:hover {
     transition: all .4s ease;
 }
 
+.minted-container .info-container p {}
+
 
 /* Style By Annon start */
