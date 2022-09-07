@@ -170,6 +170,8 @@ header .container {
     transition: all 0.5s ease-in-out;
 }
 
+.not-connected {}
+
 .show-not-connected {
     opacity: 1;
     transform: translateY(0);
