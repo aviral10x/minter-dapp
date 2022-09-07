@@ -161,6 +161,8 @@ header .container {
 /* NOT CONNECTED */
 
 .not-connected {
+    position: relative;
+    z-index: 1;
     align-items: center;
     height: 100%;
     text-align: center;
@@ -171,6 +173,8 @@ header .container {
 }
 
 .not-connected video {
+    position: absolute;
+    z-index: 0;
     object-fit: cover;
 }
 
