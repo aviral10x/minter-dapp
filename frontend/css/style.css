@@ -664,6 +664,10 @@ header .menu .btn:hover {
     transition: all .4s ease;
 }
 
+.accordion_section {
+    padding: 50px 0px;
+}
+
 .accoridon .row {
     /* display: flex; */
 }
