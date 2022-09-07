@@ -800,7 +800,10 @@ header .menu .btn:hover {
     transition: all .4s ease;
 }
 
-.minted-container .info-container p {}
+.minted-container .info-container p {
+    font-size: 20px;
+    color: #fff;
+}
 
 .mint-qty .input.mint-qty-number:hover,
 .mint-qty .input-number-decrement:hover,
