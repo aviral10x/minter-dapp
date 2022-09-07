@@ -172,7 +172,7 @@ header .container {
     transition: all 0.5s ease-in-out;
 }
 
-.not-connected video {
+.not-connected .video-container {
     position: absolute;
     z-index: 0;
     object-fit: cover;
