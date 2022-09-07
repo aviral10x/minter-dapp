@@ -411,6 +411,12 @@ section {
     border-color: #41ff0087;
 }
 
+.mint-qty .btn:hover {
+    border-color: #41FF00;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
 .input-number {
     height: 100%;
     padding: 1rem;
