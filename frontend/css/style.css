@@ -298,6 +298,7 @@ section {
     list-style: none;
     width: 70px;
     height: auto;
+    border: 1px solid #41FF00;
 }
 
 .countdown .clock-item .count-number {
@@ -306,7 +307,7 @@ section {
     font-size: 48px;
     font-weight: 400;
     font-family: var(--font-lcd);
-    padding: 1rem;
+    padding: 1rem 10px;
     display: inline-block;
     width: 100%;
     text-align: center;
