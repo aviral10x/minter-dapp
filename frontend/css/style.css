@@ -715,6 +715,7 @@ header .menu .btn:hover {
     background: #2c3e50;
     font-weight: bold;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .accoridon .tab label:hover {
