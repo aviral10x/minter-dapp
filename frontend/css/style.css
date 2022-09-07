@@ -560,7 +560,7 @@ section {
 /* UTILITIES */
 
 .hidden {
-    /* display: none; */
+    display: none;
 }
 
 
