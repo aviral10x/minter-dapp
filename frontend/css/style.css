@@ -409,6 +409,8 @@ section {
     border-width: 1px;
     border-style: solid;
     border-color: #41ff0087;
+    font-size: 18px;
+    font-style: normal;
 }
 
 .mint-qty .btn:hover {
