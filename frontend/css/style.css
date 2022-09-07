@@ -481,7 +481,7 @@ section {
     top: 90px;
     left: 5rem;
     z-index: -1;
-    max-width: 1140px;
+    max-width: 1140px !important;
     padding: 50px 30px;
 }
 
@@ -731,13 +731,14 @@ header .menu .btn:hover {
 }
 
 .splide__slide {
-    max-width: 350px;
+    max-width: 311px;
     border-width: 0px;
+    margin-right: 30px;
 }
 
 .splide__slide img {
     /* transform: rotateY(180deg); */
-    max-width: 300px;
+    max-width: 100%;
 }
 
 .splide__slide img:hover {
