@@ -788,7 +788,21 @@ header .menu .btn:hover {
     transition: all .4s ease;
 }
 
+.minted-container .hero-btn:hover {
+    border-color: #41FF00;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
 .minted-container .info-container p {}
+
+.mint-qty .input.mint-qty-number:hover,
+.mint-qty .input-number-decrement:hover,
+.mint-qty .input-number-increment:hover {
+    border-color: #41FF00;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
 
 
 /* Style By Annon start */
