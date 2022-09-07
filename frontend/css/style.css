@@ -707,6 +707,7 @@ header .menu .btn:hover {
     width: 100%;
     color: white;
     overflow: hidden;
+    margin-bottom: 2px;
 }
 
 .accoridon .tab label {
