@@ -483,6 +483,7 @@ section {
     z-index: -1;
     max-width: 1140px !important;
     padding: 50px 30px;
+    margin: 0 auto;
 }
 
 .splide__slide {
