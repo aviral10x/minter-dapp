@@ -832,5 +832,14 @@ header .menu .btn:hover {
     transition: all .4s ease;
 }
 
+.splide__slide.is-visible.is-active {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.splide__slide.is-visible.is-active img {
+    transform: rotateY(380deg);
+}
+
 
 /* Style By Annon start */
