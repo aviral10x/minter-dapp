@@ -832,7 +832,7 @@ header .menu .btn:hover {
     transition: all .4s ease;
 }
 
-.splide__slide.is-visible.is-active {
+.splide__slide.is-visible {
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
