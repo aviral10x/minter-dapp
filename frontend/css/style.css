@@ -587,8 +587,9 @@ header .header_top ul.header-social {
 }
 
 header .header_top ul.header-social li {
-    padding: 10px;
+    padding: 13px 10px 6px;
     background-color: #000;
+    border: 1px solid #41ff0087;
 }
 
 header .header-bottom {
