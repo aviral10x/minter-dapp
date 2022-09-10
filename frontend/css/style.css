@@ -61,6 +61,7 @@ body {
     font-family: var(--font-primary);
     overflow-x: hidden;
     background-color: #23262D;
+    background-color: #000;
 }
 
 .wrapper {
@@ -149,6 +150,7 @@ header {
     box-shadow: var(--header-shadow);
     background-color: #23262D;
     box-shadow: var(--roadmap-shadow);
+    background-color: #000;
 }
 
 header .container {
