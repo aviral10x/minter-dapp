@@ -842,6 +842,17 @@ header .menu .btn:hover {
 
 /* Style footer start */
 
+.nft-calender-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nft-calender-col img {
+    width: 150px;
+    height: 150px;
+}
+
 #footer {
     background-color: #0f1119;
 }
@@ -852,7 +863,8 @@ header .menu .btn:hover {
 
 .footinner-cols {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 .footcol1 {
