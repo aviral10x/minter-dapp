@@ -905,15 +905,9 @@ header .menu .btn:hover {
     color: #0073e1;
   }  */
 
-.footcol2 {
-    /* width: 15%; */
-    max-width: 170px;
-}
+.footcol2 {}
 
-.footcol3 {
-    /* width: 15%; */
-    max-width: 160px;
-}
+.footcol3 {}
 
 .footcol4 {
     /* width: 30%; */
