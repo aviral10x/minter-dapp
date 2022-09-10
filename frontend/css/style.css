@@ -840,4 +840,76 @@ header .menu .btn:hover {
 }
 
 
+/* Style footer start */
+
+#footer {
+    background-color: #0f1119;
+}
+
+.footer-inner {
+    padding: 50px 0px;
+}
+
+.footinner-cols {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footcol1 {
+    /* width: 20%; */
+    max-width: 245px;
+}
+
+.footlogo {
+    margin-bottom: 25px;
+}
+
+.footlocation i,
+.footphone i,
+.footemail i {
+    padding-right: 10px;
+}
+
+.footlocation {
+    margin-bottom: 20px;
+}
+
+.location {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.footlocation i {
+    padding-top: 8px;
+}
+
+.footphone {
+    margin-bottom: 10px;
+}
+
+
+/* .footphone a:hover , .footemail a:hover {
+    color: #0073e1;
+  }  */
+
+.footcol2 {
+    /* width: 15%; */
+    max-width: 170px;
+}
+
+.footcol3 {
+    /* width: 15%; */
+    max-width: 160px;
+}
+
+.footcol4 {
+    /* width: 30%; */
+    max-width: 360px;
+}
+
+
+/* Style footer end */
+
+
 /* Style By Annon start */
