@@ -619,7 +619,7 @@ header .header-bottom .menu {
     padding: 0px 0px 0px 30px;
 }
 
-header .menu ul.menu_inner {
+.menu ul.menu_inner {
     display: flex;
     width: 70%;
     justify-content: center;
