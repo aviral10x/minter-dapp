@@ -393,17 +393,17 @@ window.onload = function() {
 
 // Hamburger Menu Start
 $(".hamburgermenu").on("click", () => {
-    $(".nav").toggleClass("active").removeClass("reverse_anim");
+    $(".menu_inner").toggleClass("active").removeClass("reverse_anim");
 });
 $(".closeMenu").on("click", () => {
-    $(".nav").removeClass("active");
+    $(".menu_inner").removeClass("active");
 });
 
 function animate_menu(x) {
     x.classList.toggle("change");
 }
 // Mobile Menu Active Link
-$(".nav li a").on("click", function() {
-    $(".nav li a").removeClass("active");
+$(".menu_inner li a").on("click", function() {
+    $(".menu_inner li a").removeClass("active");
     $(this).addClass("active");
 });
