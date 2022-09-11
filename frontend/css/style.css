@@ -1041,7 +1041,7 @@ header .menu .btn:hover {
     transition: ease-in-out 0.5s;
 }
 
-.menu .menu_inner {
+.menu_inner {
     max-width: 100%;
     padding: 0px;
     position: fixed;
