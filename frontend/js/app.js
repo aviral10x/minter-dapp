@@ -393,10 +393,10 @@ window.onload = function() {
 
 // Hamburger Menu Start
 $(".hamburgermenu").on("click", () => {
-    $(".menu_inner").toggleClass("active").removeClass("reverse_anim");
+    $(".menu .menu_inner").toggleClass("active").removeClass("reverse_anim");
 });
 $(".closeMenu").on("click", () => {
-    $(".menu_inner").removeClass("active");
+    $(".menu .menu_inner").removeClass("active");
 });
 
 function animate_menu(x) {
