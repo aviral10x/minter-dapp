@@ -392,11 +392,11 @@ window.onload = function() {
 
 
 // Hamburger Menu Start
-JQuery(".hamburgermenu").on("click", () => {
-    JQuery(".menu_inner").toggleClass(".active").removeClass("reverse_anim");
+$(".hamburgermenu").on("click", () => {
+    $(".menu_inner").toggleClass("active").removeClass("reverse_anim");
 });
-JQuery(".closeMenu").on("click", () => {
-    JQuery(".menu_inner").removeClass(".active");
+$(".closeMenu").on("click", () => {
+    $(".menu_inner").removeClass("active");
 });
 
 function animate_menu(x) {
