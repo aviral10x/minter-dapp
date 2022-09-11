@@ -1041,7 +1041,7 @@ header .menu .btn:hover {
     transition: ease-in-out 0.5s;
 }
 
-header .menu ul.menu_inner {
+header .menu .menu_inner {
     max-width: 100%;
     padding: 0px;
     position: fixed;
@@ -1058,7 +1058,7 @@ header .menu ul.menu_inner {
     background-color: rgba(79, 132, 133, 0.8);
 }
 
-header .menu ul.menu_inner.active {
+header .menu .menu_inner.active {
     transform: translateX(0);
     transition: ease-in-out 0.5s;
     width: 100%;
