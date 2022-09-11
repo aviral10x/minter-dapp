@@ -379,7 +379,7 @@ async function mint() {
         }
     }
 }
-
+// cooming soon js start
 window.onload = function() {
     var url = new URL(window.location.href);
     var navigate = url.searchParams.get("soon");
@@ -388,3 +388,22 @@ window.onload = function() {
         window.location.replace("/comming-Soon");
     }
 }
+
+
+
+// Hamburger Menu Start
+$(".hamburgermenu").on("click", () => {
+    $(".nav").toggleClass("active").removeClass("reverse_anim");
+});
+$(".closeMenu").on("click", () => {
+    $(".nav").removeClass("active");
+});
+
+function animate_menu(x) {
+    x.classList.toggle("change");
+}
+// Mobile Menu Active Link
+$(".nav li a").on("click", function() {
+    $(".nav li a").removeClass("active");
+    $(this).addClass("active");
+});
