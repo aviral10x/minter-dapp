@@ -1064,3 +1064,12 @@ header .menu .btn:hover {
     width: 100%;
     text-align: center;
 }
+
+.menu .menu_inner .closebtn {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    font-size: 36px;
+    color: #fff;
+}
