@@ -254,13 +254,21 @@ header .container {
     box-shadow: var(--card-shadow);
     padding: 1rem 5rem;
     margin-bottom: 2rem;
-    opacity: 0;
+    /* opacity: 0; */
     transform: translateX(100vw);
     transition: all 0.5s ease-in-out;
 }
 
+.countdown.card {
+    display: none;
+}
+
+.countdown.card.show-card {
+    display: block;
+}
+
 .show-card {
-    opacity: 1;
+    /* opacity: 1; */
     transform: translateX(0);
 }
 
