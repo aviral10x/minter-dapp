@@ -1058,7 +1058,7 @@ header .menu ul.menu_inner {
     background-color: rgba(79, 132, 133, 0.8);
 }
 
-.menu_inner .nav.active {
+.header .menu ul.menu_inner.active {
     transform: translateX(0);
     transition: ease-in-out 0.5s;
     width: 100%;
