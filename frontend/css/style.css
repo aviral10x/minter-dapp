@@ -294,7 +294,7 @@ section {
     text-align: center;
 }
 
-.countdown_section .countdown {
+.countdown_section .countdown.card.show-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
