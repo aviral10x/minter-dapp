@@ -379,7 +379,7 @@ async function mint() {
         }
     }
 }
-
+// cooming soon js start
 window.onload = function() {
     var url = new URL(window.location.href);
     var navigate = url.searchParams.get("soon");
@@ -388,3 +388,22 @@ window.onload = function() {
         window.location.replace("/comming-Soon");
     }
 }
+
+
+
+// Hamburger Menu Start
+JQuery(".hamburgermenu").on("click", () => {
+    JQuery(".menu .menu_inner").toggleClass("active").removeClass("reverse_anim");
+});
+JQuery(".closeMenu").on("click", () => {
+    JQuery(".menu .menu_inner").removeClass("active");
+});
+
+function animate_menu(x) {
+    x.classList.toggle("change");
+}
+// Mobile Menu Active Link
+$(".menu_inner li a").on("click", function() {
+    $(".menu_inner li a").removeClass("active");
+    $(this).addClass("active");
+});
