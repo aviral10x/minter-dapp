@@ -1097,4 +1097,15 @@ header .menu .btn:hover {
     .countdown #mainText {
         margin-bottom: 20px;
     }
+    .info-container h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .mint-qty .btn {
+        font-size: 14px;
+        padding: 1rem 1.5rem;
+    }
+    .input-number {
+        padding: 1rem 20px 1rem 20px;
+    }
 }
