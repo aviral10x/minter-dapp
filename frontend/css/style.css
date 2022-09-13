@@ -174,7 +174,9 @@ header .container {
     transition: all 0.5s ease-in-out;
 }
 
-.not-connected {}
+.not-connected {
+    padding: 110px 0px;
+}
 
 .show-not-connected {
     opacity: 1;
@@ -275,9 +277,7 @@ header .container {
 
 /* COUNTDOWN SECTION */
 
-.countdown_section {
-    padding: 60px 0px 0px 0px;
-}
+.countdown_section {}
 
 .countdown_section .container {
     max-width: 1120px;
@@ -300,6 +300,7 @@ section {
     justify-content: center;
     align-items: center;
     box-shadow: var(--roadmap-shadow);
+    margin-top: 60px;
 }
 
 .countdown ul {
