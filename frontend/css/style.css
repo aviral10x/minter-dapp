@@ -254,7 +254,7 @@ header .container {
     border-radius: 35px;
     border: 3px solid var(--accent-color);
     box-shadow: var(--card-shadow);
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
     margin-bottom: 2rem;
     /* opacity: 0; */
     transform: translateX(100vw);
@@ -533,7 +533,7 @@ section {
         padding: 0.5rem 1rem;
         max-width: 8rem;
     }
-    .not-connected {
+    /* .not-connected {
         background-color: var(--bg-color-transparent);
         border-radius: 5px;
         padding: 2rem;
@@ -568,7 +568,7 @@ section {
     .mint-qty .btn {
         padding: 1rem;
         font-size: 13px;
-    }
+    } */
 }
 
 
