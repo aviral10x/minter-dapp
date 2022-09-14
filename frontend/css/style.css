@@ -1139,6 +1139,11 @@ header .menu .btn:hover {
 }
 
 @media screen and (max-width: 574px) {
+    header .header_top ul.header-social {
+        position: unset;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
     .not-connected h1 {
         font-size: 1.5rem;
     }
@@ -1151,9 +1156,7 @@ header .menu .btn:hover {
         margin: 0 auto;
         flex-wrap: wrap;
     }
-    header .header_top ul.header-social {
-        position: unset;
-        flex-direction: row;
-        justify-content: flex-end;
+    .card {
+        padding: 2rem 1rem;
     }
 }
