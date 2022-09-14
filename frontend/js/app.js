@@ -36,7 +36,7 @@ window.addEventListener("DOMContentLoaded", async() => {
         width: '100%',
         autoHeight: true,
         breakpoints: {
-            640: {
+            768: {
                 perPage: 2,
                 gap: '.7rem',
                 height: '6rem',
