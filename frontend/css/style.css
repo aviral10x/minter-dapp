@@ -1076,6 +1076,10 @@ header .menu .btn:hover {
 }
 
 @media screen and (max-width: 768px) {
+    .not-connected h1 {
+        font-size: 2.5rem;
+        margin: 1rem 0;
+    }
     h2 {
         font-size: 30px;
         line-height: 30px;
