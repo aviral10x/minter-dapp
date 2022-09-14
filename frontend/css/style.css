@@ -1134,4 +1134,9 @@ header .menu .btn:hover {
         margin: 0 auto;
         flex-wrap: wrap;
     }
+    header .header_top ul.header-social {
+        position: unset;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 }
