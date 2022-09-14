@@ -405,10 +405,10 @@ window.onload = function() {
 
 // Hamburger Menu Start
 JQuery(".hamburgermenu").on("click", () => {
-    JQuery(".menu .menu_inner").toggleClass("active").removeClass("reverse_anim");
+    JQuery(".menu_inner").toggleClass("active").removeClass("reverse_anim");
 });
 JQuery(".closeMenu").on("click", () => {
-    JQuery(".menu .menu_inner").removeClass("active");
+    JQuery(".menu_inner").removeClass("active");
 });
 
 function animate_menu(x) {
