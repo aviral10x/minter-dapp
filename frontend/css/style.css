@@ -1132,6 +1132,10 @@ header .menu .btn:hover {
     .page_roadmap_list {
         flex-direction: column;
     }
+    .splide__slide {
+        margin-right: 0px;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 574px) {
