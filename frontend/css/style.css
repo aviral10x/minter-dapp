@@ -1123,3 +1123,11 @@ header .menu .btn:hover {
         padding: 40px 0px;
     }
 }
+
+@media screen and (max-width: 574px) {
+    .countdown ul {
+        max-width: 250px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}
