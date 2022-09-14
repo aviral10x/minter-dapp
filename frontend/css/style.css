@@ -1128,6 +1128,12 @@ header .menu .btn:hover {
     }
 }
 
+@media screen and (max-width: 640px) {
+    .page_roadmap_list {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 574px) {
     .not-connected h1 {
         font-size: 1.5rem;
