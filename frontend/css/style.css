@@ -1076,6 +1076,13 @@ header .menu .btn:hover {
 }
 
 @media screen and (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .card {
+        padding: 2rem;
+    }
     .countdown .clock-item .count-number {
         font-size: 1.5rem;
     }
@@ -1107,5 +1114,8 @@ header .menu .btn:hover {
     }
     .input-number {
         padding: 1rem 20px 1rem 20px;
+    }
+    .page_roadmap_section {
+        padding: 40px 0px;
     }
 }
