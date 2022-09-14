@@ -38,13 +38,13 @@ window.addEventListener("DOMContentLoaded", async() => {
         breakpoints: {
             768: {
                 perPage: 2,
-                gap: '.7rem',
-                height: '6rem',
+                // gap: '.7rem',
+                // height: '6rem',
             },
             480: {
                 perPage: 1,
-                gap: '.7rem',
-                height: '6rem',
+                // gap: '.7rem',
+                // height: '6rem',
             },
         },
     });
