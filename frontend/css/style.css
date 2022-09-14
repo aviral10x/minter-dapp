@@ -1133,7 +1133,6 @@ header .menu .btn:hover {
     .page_roadmap_list {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
     .splide__slide {
         margin-right: 0px;
