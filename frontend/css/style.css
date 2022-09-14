@@ -1168,6 +1168,9 @@ header .menu .btn:hover {
 }
 
 @media screen and (max-width: 480px) {
+    .container {
+        padding: 0px 20px;
+    }
     .hero-btn {
         padding: 1rem 1.5rem;
     }
