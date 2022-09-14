@@ -1166,3 +1166,14 @@ header .menu .btn:hover {
         padding: 2rem 1rem;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .hero-btn {
+        padding: 1rem 1.5rem;
+    }
+    .mint-qty {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+}
