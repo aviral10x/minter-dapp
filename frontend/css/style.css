@@ -1131,10 +1131,16 @@ header .menu .btn:hover {
 @media screen and (max-width: 640px) {
     .page_roadmap_list {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .splide__slide {
         margin-right: 0px;
         padding: 10px;
+    }
+    .page_roadmap_list .page_roadmap_item:not(:nth-child(3)),
+    .page_roadmap_list .page_roadmap_item:not(:nth-child(4)) {
+        margin-right: 0px;
     }
 }
 
