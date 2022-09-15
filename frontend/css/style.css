@@ -893,8 +893,8 @@ header .menu .btn:hover {
 }
 
 .footcol1 {
-    /* width: 20%; */
-    max-width: 245px;
+    width: 25%;
+    /* max-width: 245px; */
 }
 
 .footlogo {
