@@ -1179,4 +1179,13 @@ header .menu .btn:hover {
         gap: 20px;
         justify-content: center;
     }
+    .page_roadmap_list .page_roadmap_item {
+        padding: 90px 15px 40px 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .splide__slide {
+        padding: 0px;
+    }
 }
