@@ -949,7 +949,7 @@ header .menu .btn:hover {
 }
 
 .copyrightcol p {
-    font-family: 'Poppins-Light';
+    font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 300;
     color: #fff;
