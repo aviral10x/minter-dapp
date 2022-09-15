@@ -1075,6 +1075,22 @@ header .menu .btn:hover {
     color: #fff;
 }
 
+@media screen and (max-width: 989px) {
+    .footinner-cols {
+        flex-direction: column;
+    }
+    .footcol1,
+    .footcol2 {
+        width: 100%;
+    }
+    .nft-calender-section h4 {
+        text-align: center;
+    }
+    .nft-calender-inner {
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .not-connected h1 {
         font-size: 2.5rem;
