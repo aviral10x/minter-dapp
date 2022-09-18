@@ -1193,6 +1193,9 @@ header .menu ul.menu_inner.active li:not(:last-child) {
     .container {
         padding: 0px 20px;
     }
+    .container.not-connected {
+        padding: 110px 0px;
+    }
     .hero-btn {
         padding: 1rem 1.5rem;
     }
