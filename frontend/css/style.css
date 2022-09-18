@@ -982,6 +982,7 @@ header .menu .btn:hover {
     cursor: pointer;
     z-index: 101;
     margin-left: 29px;
+    padding: 16px;
 }
 
 .hamburgermenu p {
