@@ -1172,6 +1172,14 @@ header .menu ul.menu_inner.active li:not(:last-child) {
         flex-direction: row;
         justify-content: flex-end;
     } */
+    header .header-bottom {
+        flex-direction: column;
+    }
+    header .header-bottom .menu {
+        width: 100%;
+        padding: 0 0 0 0;
+        justify-content: space-between;
+    }
     .not-connected h1 {
         font-size: 1.5rem;
     }
