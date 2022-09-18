@@ -404,6 +404,7 @@ window.onload = function() {
 
 
 // Hamburger Menu Start
+
 JQuery(".hamburgermenu").on("click", () => {
     JQuery(".menu_inner").toggleClass("active").removeClass("reverse_anim");
 });
