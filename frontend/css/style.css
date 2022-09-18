@@ -1167,11 +1167,11 @@ header .menu ul.menu_inner.active li:not(:last-child) {
 }
 
 @media screen and (max-width: 574px) {
-    header .header_top ul.header-social {
+    /* header .header_top ul.header-social {
         position: unset;
         flex-direction: row;
         justify-content: flex-end;
-    }
+    } */
     .not-connected h1 {
         font-size: 1.5rem;
     }
