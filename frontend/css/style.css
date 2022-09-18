@@ -1180,6 +1180,9 @@ header .menu ul.menu_inner.active li:not(:last-child) {
         padding: 0 0 0 0;
         justify-content: space-between;
     }
+    .container.not-connected {
+        padding: 70px 0px;
+    }
     .not-connected h1 {
         font-size: 1.5rem;
     }
@@ -1202,7 +1205,7 @@ header .menu ul.menu_inner.active li:not(:last-child) {
         padding: 0px 20px;
     }
     .container.not-connected {
-        padding: 110px 0px;
+        padding: 70px 0px;
     }
     .hero-btn {
         padding: 1rem 1.5rem;
