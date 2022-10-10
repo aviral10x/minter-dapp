@@ -12,7 +12,7 @@ const description = "Daynerds is a commutiny building project there will be an A
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [{
-    growEditionSizeTo: 5000,
+    growEditionSizeTo: 1500,
     layersOrder: [
         { name: "Background" },
         { name: "Clothes" },
@@ -24,6 +24,7 @@ const layerConfigurations = [{
         { name: "Pants" },
         { name: "Right" },
         { name: "Right Bubble" },
+        { name: "Shoes" },
         { name: "Skin" },
     ],
 }, ];
@@ -57,7 +58,7 @@ const OWNER_ADDRESS = '0x7aF1b94a5697EBB0e64fB31c296f7273128a62Fd';
 const TREASURY_ADDRESS = '0x7aF1b94a5697EBB0e64fB31c296f7273128a62Fd';
 const MAX_SUPPLY = 1499; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.02; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-11-11T07:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
