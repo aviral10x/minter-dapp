@@ -1,4 +1,4 @@
-const abi = [{
+[{
     "response": "OK",
     "abi": [{
             "inputs": [{
