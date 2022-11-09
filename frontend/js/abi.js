@@ -1,5 +1,6 @@
-const abi = [
-    [{
+[{
+    "response": "OK",
+    "abi": [{
             "inputs": [{
                     "components": [{
                             "internalType": "string",
@@ -109,8 +110,7 @@ const abi = [
                 }
             ],
             "stateMutability": "nonpayable",
-            "type": "constructor",
-            "signature": "constructor"
+            "type": "constructor"
         },
         {
             "inputs": [],
@@ -1439,4 +1439,4 @@ const abi = [
             "signature": "0x476343ee"
         }
     ]
-]
+}]
