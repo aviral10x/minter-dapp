@@ -3,7 +3,7 @@ const chain = 'polygon'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "coming soon!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Daynerds coming soon ';
+const welcome_p = "lets's go lets' go we may Airdrop 100 MATIC to one lucky minter after successful MINT. This NFT is just created for fun All holders will receive free airdrop from next NFT collection of Nerdsstay tuned for the updates";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Public mint will start soon";
 const h1_public_mint = "Public Minting Open!!";
